@@ -12,7 +12,6 @@ import MEDMEX.settings.Setting;
 public class Module {
 	
 	public String name;
-	public String object;
 	public boolean toggled;
 	public int keyCode;
 	public Category category;
@@ -21,8 +20,6 @@ public class Module {
 	public Minecraft mc = Minecraft.getMinecraft();
 	
 	public List<Setting> settings = new ArrayList<Setting>();
-	
-	public String information;
 	
 	public Module(String name, int key, Category c){
 		this.name = name;
@@ -82,13 +79,6 @@ public class Module {
 			this.name = name;
 		}
 	}
-	public String getInformation() {
-        return information;
-    }
-
-    public void setInformation(String information) {
-        this.information = information;
-    }
 
 
 	

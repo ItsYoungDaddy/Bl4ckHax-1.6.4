@@ -9,7 +9,7 @@ import MEDMEX.modules.Module;
 public class Bhop extends Module {
 	
 	public Bhop() {
-		super("Bhop" , Keyboard.KEY_M, Category.MOVEMENT);
+		super("BHop" , Keyboard.KEY_M, Category.MOVEMENT);
 	}
 	
 	private long timer = 0l;

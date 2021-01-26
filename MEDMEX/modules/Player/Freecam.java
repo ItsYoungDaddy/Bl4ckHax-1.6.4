@@ -5,6 +5,8 @@ import org.lwjgl.input.Keyboard;
 import MEDMEX.Client;
 import MEDMEX.Util.FreecamHandler;
 import MEDMEX.events.Event;
+import MEDMEX.events.MotionUpdateEvent;
+import MEDMEX.events.listeners.EventMotion;
 import MEDMEX.events.listeners.EventUpdate;
 import MEDMEX.modules.Module;
 import net.minecraft.src.EntityClientPlayerMP;

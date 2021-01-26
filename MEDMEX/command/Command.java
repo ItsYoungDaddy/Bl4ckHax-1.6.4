@@ -9,7 +9,7 @@ import net.minecraft.src.Minecraft;
 
 public abstract class Command {
 	
-	public String name, description, syntax, object;
+	public String name, description, syntax;
 	public List<String> aliases = new ArrayList<String>();
 	public Command(String name, String description, String syntax, String...aliases) {
 		this.name = name;
@@ -45,7 +45,6 @@ public abstract class Command {
 	public void setAliases(List<String> aliases) {
 		this.aliases = aliases;
 	}
-
 	
 
 }

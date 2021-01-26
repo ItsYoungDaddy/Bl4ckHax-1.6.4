@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 import org.lwjgl.input.Keyboard;
 
 import MEDMEX.events.Event;
+import MEDMEX.events.listeners.EventMotion;
 import MEDMEX.events.listeners.EventUpdate;
 import MEDMEX.modules.Module;
 import net.minecraft.src.EntityLivingBase;
