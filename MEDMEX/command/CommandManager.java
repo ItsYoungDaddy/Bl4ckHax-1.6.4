@@ -30,6 +30,8 @@ public class CommandManager {
 		commands.add(new Timer());
 		commands.add(new CombatLog());
 		commands.add(new BookExploit());
+		commands.add(new Vclip());
+		commands.add(new SpawnTP());
 	}
 	
 	public void handleChat(EventChat event) {

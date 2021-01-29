@@ -10,7 +10,7 @@ public class Timer extends Module {
 	public static Float customtimercmd = 1.00F;
 	
 	public Timer() {
-		super("Timer" , Keyboard.KEY_B, Category.MOVEMENT);
+		super("Timer" , Keyboard.KEY_L, Category.MOVEMENT);
 	}
 		
 	

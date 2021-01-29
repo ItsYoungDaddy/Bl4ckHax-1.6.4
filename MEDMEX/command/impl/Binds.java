@@ -17,18 +17,16 @@ public class Binds extends Command {
 		Client.addChatMessage("Fly - F");
 		Client.addChatMessage("Safewalk - J");
 		Client.addChatMessage("Sprint - K");
-		Client.addChatMessage("Fastplace - I");
 		Client.addChatMessage("Freecam - U");
-		Client.addChatMessage("NoFall - L");
-		Client.addChatMessage("Fullbright - O");
+		Client.addChatMessage("Timer - L");
 		Client.addChatMessage("NoRender - N");
 		Client.addChatMessage("NoWeather - P");
-		Client.addChatMessage("Timer - B");
-		Client.addChatMessage("Glide - H");
+		Client.addChatMessage("Fullbright - B");
 		Client.addChatMessage("NoClip - G");
 		Client.addChatMessage("Speed - V");
 		Client.addChatMessage("Bhop - M");
-		Client.addChatMessage("Jesus - X");
+		Client.addChatMessage("Xray - X");
+		Client.addChatMessage("Aura - H");
 		}
 	}
 		

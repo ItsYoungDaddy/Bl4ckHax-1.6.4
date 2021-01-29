@@ -10,7 +10,7 @@ import net.minecraft.src.Minecraft;
 public class Glide extends Module {
 	
 	public Glide() {
-		super("Glide", Keyboard.KEY_H, Category.MOVEMENT);
+		super("Glide", Keyboard.KEY_F19, Category.MOVEMENT);
 	}
 		
 	public void onEnable() {

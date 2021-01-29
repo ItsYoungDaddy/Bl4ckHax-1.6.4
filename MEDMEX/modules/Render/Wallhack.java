@@ -5,22 +5,24 @@ import org.lwjgl.input.Keyboard;
 import MEDMEX.events.Event;
 import MEDMEX.events.listeners.EventUpdate;
 import MEDMEX.modules.Module;
+import net.minecraft.src.RendererLivingEntity;
 
-public class Fullbright extends Module {
+public class Wallhack extends Module {
 	
 	
 	
-	public Fullbright() {
-		super("Fullbright", Keyboard.KEY_B, Category.RENDER);
+	public Wallhack() {
+		super("Wallhack", Keyboard.KEY_F19, Category.RENDER);
 		
 	}
 	
 	public void onEnable() {
-		mc.gameSettings.gammaSetting = 100;
+		RendererLivingEntity.wallhackenabled = true;
 	}
 	
 	public void onDisable() {
-		mc.gameSettings.gammaSetting = 1;
+		RendererLivingEntity.wallhackenabled = false;
+		
 	}
 	
 

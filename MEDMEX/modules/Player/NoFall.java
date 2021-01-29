@@ -10,7 +10,7 @@ import net.minecraft.src.Packet10Flying;
 public class NoFall extends Module {
 	
 	public NoFall() {
-		super("NoFall", Keyboard.KEY_L, Category.PLAYER);
+		super("NoFall", Keyboard.KEY_F19, Category.PLAYER);
 	}
 	
 	

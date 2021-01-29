@@ -13,7 +13,7 @@ import net.minecraft.src.ItemStack;
 public class Jesus extends Module {
 	
 	public Jesus() {
-		super("Jesus" , Keyboard.KEY_X, Category.MOVEMENT);
+		super("Jesus" , Keyboard.KEY_F19, Category.MOVEMENT);
 	}
 	
 	

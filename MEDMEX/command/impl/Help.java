@@ -22,6 +22,8 @@ public class Help extends Command {
 		Client.addChatMessage(".timer <speed> - Sets timer speed (requires toggle of timer after change");
 		Client.addChatMessage(".combatlog <health> - Sets custom combatlog health (default 3 hearts, requires toggle after change)");
 		Client.addChatMessage(".bookexploit - Creates a 127 book, must be holding book in hand");
+		Client.addChatMessage(".SpawnTP - Teleports you to spawn (doesn't work on macro)");
+		Client.addChatMessage(".Vclip <int> - Teleports you vertically");
 	}
 	}
 		

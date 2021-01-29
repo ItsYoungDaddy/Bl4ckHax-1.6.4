@@ -35,6 +35,11 @@ public class Modules extends Command {
 		Client.addChatMessage("Jesus");
 		Client.addChatMessage("Bhop");
 		Client.addChatMessage("NoSlow");
+		Client.addChatMessage("Xray");
+		Client.addChatMessage("ChestESP");
+		Client.addChatMessage("Wallhack");
+		Client.addChatMessage("Aura");
+		Client.addChatMessage("AntiPortalTrap");
 		
 		}
 	}

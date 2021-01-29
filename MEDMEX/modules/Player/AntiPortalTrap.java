@@ -5,23 +5,24 @@ import org.lwjgl.input.Keyboard;
 import MEDMEX.events.Event;
 import MEDMEX.events.listeners.EventUpdate;
 import MEDMEX.modules.Module;
+import net.minecraft.src.EntityPlayerSP;
+import net.minecraft.src.EntityPortalFX;
 import net.minecraft.src.Minecraft;
 import net.minecraft.src.Packet10Flying;
 
-public class Fastplace extends Module {
+public class AntiPortalTrap extends Module {
 	
-	public Fastplace() {
-		super("Fastplace", Keyboard.KEY_F19, Category.PLAYER);
+	public AntiPortalTrap() {
+		super("AntiPortalTrap", Keyboard.KEY_F19, Category.PLAYER);
 	}
 	
 	
 	public void onEnable() {
-		Minecraft.customrightclickdelay = 0;
-
+		EntityPlayerSP.antiportaltrap = true;
 	}
-	
 	public void onDisable() {
-		Minecraft.customrightclickdelay = 4;
+		EntityPlayerSP.antiportaltrap = false;
+		
 	}
 		
 
