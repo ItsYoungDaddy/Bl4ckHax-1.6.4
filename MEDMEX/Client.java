@@ -20,7 +20,7 @@ import MEDMEX.modules.Combat.*;
 public class Client {
 	
 	
-	public static String name = "Bl4ckHax", version = "b2.0";
+	public static String name = "Bl4ckHax", version = "b2.5";
 	public static CopyOnWriteArrayList<Module> modules = new CopyOnWriteArrayList<Module>();
 	public static HUD hud = new HUD();
 	public static CommandManager commandManager = new CommandManager();
@@ -56,6 +56,8 @@ public class Client {
 		modules.add(new Xray());
 		modules.add(new Aura());
 		modules.add(new AntiPortalTrap());
+		modules.add(new SpeedMine());
+		modules.add(new Nametags());
 	
 	}
 	

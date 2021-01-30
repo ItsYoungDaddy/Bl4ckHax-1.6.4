@@ -18,9 +18,11 @@ public class NoSlow extends Module {
 	
 	public void onDisable() {
 		EntityPlayerSP.noslow = false;
+		EntityPlayerSP.noslow = false;
 	}
 	
 	public void onEnable() {
+		EntityPlayerSP.noslow = true;
 		EntityPlayerSP.noslow = true;
 	}
 

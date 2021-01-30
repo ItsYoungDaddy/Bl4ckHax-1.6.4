@@ -40,6 +40,8 @@ public class Modules extends Command {
 		Client.addChatMessage("Wallhack");
 		Client.addChatMessage("Aura");
 		Client.addChatMessage("AntiPortalTrap");
+		Client.addChatMessage("SpeedMine");
+		Client.addChatMessage("Nametags");
 		
 		}
 	}
